@@ -1,6 +1,6 @@
 #Codes
 
-#' @rawNamespace useDynLib(HydroEnR); exportPattern("ˆ[[:alpha:]]+"); importFrom(Rcpp, evalCpp)
+#' @rawNamespace useDynLib(fastER); exportPattern("ˆ[[:alpha:]]+"); importFrom(Rcpp, evalCpp)
 
 addOne <- function(x){
   y <- x + 1
